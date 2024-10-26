@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8 SKO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .container {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .text-section {
+            max-width: 40%;
+            margin-left: 80px; 
+        }
+
+        .image-section {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            margin-left: 100px; 
+        }
+
+        .image-section img {
+            width: 360px;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            color: gray;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="text-section">
+            <h1>Week 8</h1>
+            <h3>Tuesday, 17th September</h3>
+            
+            <h2>Class Activities:</h2>
+            <p>This week, we focused on integrating sounds and audio into our p5.js projects. In the morning class, we researched various examples from the Reading Machines website, looking for different types of sounds, including sound effects (SFX), looping music, ambient sounds, and generative sound. This exercise was beneficial as it not only showcased the creative methods used in sound design but also helped us understand the distinctions between these sound types. Knowing these differences will assist us in selecting the most suitable sounds for our own projects.
+In the afternoon, we learned how to add music to our p5.js sketches. We started by creating a new sketch (e.g., naming it codewords_sound) to ensure we had the correct directory. We then imported the p5.sound library through the Sketch menu and confirmed it was added to our sketch’s library folder. Next, we configured the index.html file to include the necessary script calls for p5.js and p5.sound. This was crucial for getting our audio to function correctly in the browser.To load and play a sound, we had to find an mp3 file to use, and then we had to declare a variable for our sound (e.g., var song;). We then dragged our mp3 into our sketch folder. We also used the preload function to load the sound file. Our tutor also taught us how to suspend and resume the audio context, ensuring that sound only plays in response to user gestures.</p>
+            <h2>Learning Outcomes:</h2>
+            <p>This week’s learning significantly impacted my understanding adding sounds and audio into websites. I feel more equipped to incorporate sound into my projects, which will help me enhance the overall user experience of my project. I enjoyed the hands-on approach of learning through experimentation and collaboration. I still have questions about effectively layering multiple audio tracks and managing their interactions within a sketch.</p>
+            
+            <h2>Helpful Links/Resources:</h2>
+            <p>
+                <a href="https://www.lifewire.com/public-domain-music-3482603" target="_blank">LifeWire: Public Domain Music</a> - A website that recommends free-audio-use sites.<br>
+                <a href="https://freesound.org/search/?s=Date+added+(newest+first)&g=1" target="_blank">Freesound</a> - A website that has tons of free sounds and audio you can use.<br>
+                <a href="https://sfxr.me/" target="_blank">Sfxr</a> - A website that has a lot of sound effects to use for free.
+            </p>
+        </div>
+           
+
+        <div class="image-section">
+            <img src="data/img22.png" alt="Image 22">
+            <img src="data/img23.png" alt="Image 23">
+            <img src="data/img24.png" alt="Image 24">
+            <img src="data/img25.png" alt="Image 25">
+            
+        </div>
+    </div>
+
+</body>
+</html>
